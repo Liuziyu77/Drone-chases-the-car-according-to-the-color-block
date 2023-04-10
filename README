@@ -1,1 +1,10 @@
-This is a README
+This is a README:
+
+这个项目构建了两个ros通信节点。
+一个节点使用opencv识别色块（工程中识别的是蓝色色块，可根据需求更改为任何颜色），并计算色块的中心位置，以及色块中心距离相机视野中心的偏移量。(Node 1)
+另一个节点使用Uart将偏移量发送。(Node 2)
+
+
+./script/color.py(Node 1)
+./src/uart_catch_car.cpp(Node 2)
+
