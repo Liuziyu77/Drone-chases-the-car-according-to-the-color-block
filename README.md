@@ -37,6 +37,12 @@ catkin_make
 source ~catkin_ws/devel/setup.bash
 ```
 
+&#9733; **Step six： Add files**
+Add the files above into this rosbag.And compile the rosbag again.
+```
+catkin_make
+```
+
 ## Run
 &#10084;  **Step one: Start the master of ros：**
 ```
