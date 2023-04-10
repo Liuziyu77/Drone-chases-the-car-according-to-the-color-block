@@ -6,25 +6,25 @@ This project implements two nodes based on ROS, recognizes the position of the c
 ## Install
  The project is based on the ros operating system, and the ros environment needs to be built first.
  
- $\blacktriangleright$ **Step one:  Creat workspace**
+&#9733; **Step one:  Creat workspace**
 `mkdir -p ~/catkin_ws/src`
 `cd ~/catkin_ws/src`
 `catkin_init_workspace`
 
-$\blacktriangleright$**Step two: Compile workspace**
+&#9733; **Step two: Compile workspace**
 `cd ~/catkin_ws/
 catkin_make`
 
-$\blacktriangleright$**Step three: Set environment variables**
+&#9733; **Step three: Set environment variables**
 `source devel/setup.bash`
 
-$\blacktriangleright$**Step four: Creat Rosbag**
+&#9733; **Step four: Creat Rosbag**
 ```
 cd ~/catkin_ws/src
 catkin_creat_pkg test_pkg std_msgs rospy roscpp
 ```
 
-$\blacktriangleright$**Step five： Compole Rosbag**
+&#9733; **Step five： Compole Rosbag**
 ```
 cd ~/catkin_ws
 catkin_make
